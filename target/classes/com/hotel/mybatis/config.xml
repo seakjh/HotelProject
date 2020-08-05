@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.hotel.domain.Admin" 						alias="Admin"/>
+		<typeAlias type="com.hotel.domain.BedOption" 				alias="BedOption"/>
+		<typeAlias type="com.hotel.domain.CategoryOption" 		alias="CategoryOption"/>
+		<typeAlias type="com.hotel.domain.Image" 						alias="Image"/>
+		<typeAlias type="com.hotel.domain.OrderSummary"			alias="Member"/>
+		<typeAlias type="com.hotel.domain.PayMent"					alias="PayMent"/>
+		<typeAlias type="com.hotel.domain.Reservation"				alias="Reservation"/>
+		<typeAlias type="com.hotel.domain.ReserveTable"			alias="ReserveTable"/>
+		<typeAlias type="com.hotel.domain.Room"						alias="Room"/>
+		<typeAlias type="com.hotel.domain.ServiceOption"			alias="ServiceOption"/>
+		<typeAlias type="com.hotel.domain.SubCategory"			alias="SubCategory"/>
+		<typeAlias type="com.hotel.domain.TopCategory"				alias="TopCategory"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/hotel/mybatis/AdminMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/BedOptionMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/CategoryOptionMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/ImageMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/MemberMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/PayMentMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/ReservationMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/ReserveTableMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/RoomMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/ServiceOptionMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/SubCategoryMapper.xml"/>
+		<mapper resource="com/hotel/mybatis/TopCategoryMapper.xml"/>
+	</mappers>
+	
+</configuration>
+
+
+
+
+
+
+
